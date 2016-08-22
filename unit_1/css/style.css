@@ -1,11 +1,12 @@
 body {
-	background-color: purple;
+	background-color: #e1eef6;
 }
 
-h1, p {
-	color: white;
+h1, h2, {
+	color: #ff5f2e;
+	font-style: arial;
 }
 
-h2 {
-	color: yellow;
+p {
+	color: #004e66;
 }
