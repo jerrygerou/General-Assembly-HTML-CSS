@@ -1,12 +1,17 @@
 body {
-	background-color: #e1eef6;
+	background-color: #cccccc;
 }
 
-h1, h2, {
+h1, h2 {
 	color: #ff5f2e;
-	font-style: arial;
+	font-family: "Arial", sans-serif;
 }
 
 p {
 	color: #004e66;
+	font-family: "Arial", sans-serif;
+}
+
+a { 
+	color: #bd1550; 
 }
