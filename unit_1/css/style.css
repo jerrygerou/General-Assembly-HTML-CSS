@@ -1,15 +1,21 @@
 body {
 	background-color: #cccccc;
+	text-align: center;
 }
 
 h1, h2 {
 	color: #ff5f2e;
-	font-family: "Arial", sans-serif;
+	font-family: Arial, sans-serif;
+	font-size: 48px;
+	font-weight: normal;
+	text-decoration: underline;
+	text-transform: uppercase;
 }
 
 p {
 	color: #004e66;
-	font-family: "Arial", sans-serif;
+	font-family: "Courier New", sans-serif;
+	font-style: italic;
 }
 
 a { 
