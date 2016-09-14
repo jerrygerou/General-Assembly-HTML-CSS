@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway:400,700|Special+Elite';
+
 *,
 *:before,
 *:after {
@@ -8,7 +10,6 @@ padding: 0;
 box-sizing: border-box;
 }
 
-@import 'https://fonts.googleapis.com/css?family=Trocchi';
 
 body {
 	background-image: url("file:///C:/Users/Sara/Documents/GitHub/saragerou.github.io/unit_4/images/background.jpg");
@@ -16,24 +17,28 @@ body {
 	font-size:16px; /*1m = 16px*/
 }
 
-header {
+header, h2, h3 {
 	color: #FFFFFF;
-	font-family: 'bookman'
-	font-weight: bold;
-	font-size: 42px;
+	font-family: 'Special Elite', cursive;
+}
+
+p, footer, a, nav {
+	color: #FFFFFF;
+	font-family: 'Raleway', sans-serif;
+}
+
+header {
+	font-size: 48px;
 	text-align: center;
 }
 
-h2 {color: #FFFFFF;
-	font-family: 'Bitter', serif;
-	font-weight: bold;
+h2 {
 	font-size: 36px;
 	padding-top:24px;
 	text-align: center;
 }
 
-h3 {color: #FFFFFF;
-	font-family: 'Bitter', serif;
+h3 {
 	font-size: 24px;
 	text-transform: uppercase;
 	padding-top:24px;
@@ -41,8 +46,6 @@ h3 {color: #FFFFFF;
 }
 
 p {
-	color: #FFFFFF;
-	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
 	width:30em;
 	text-align: center;
@@ -51,8 +54,6 @@ p {
 }
 
 footer {
-	color: #FFFFFF;
-	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
 	text-align: center;
 }
@@ -62,7 +63,6 @@ hr {
 }
 
 a { 
-	color: #FFFFFF;
 	text-decoration: none;
 	border-bottom: 1px solid #CCCCCC; 
 }
@@ -73,10 +73,8 @@ nav {
 	text-align: center;
 	word-spacing: 3em;
 	margin-top: 40px;
-	font-family: 'Raleway', sans-serif;
 	font-size: 24px;
 	line-height: 1.2em;
-	color: #FFFFFF;
 }
 
 nav a:hover {
