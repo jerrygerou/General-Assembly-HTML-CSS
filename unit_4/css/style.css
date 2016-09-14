@@ -8,7 +8,7 @@ padding: 0;
 box-sizing: border-box;
 }
 
-@import 'https://fonts.googleapis.com/css?family=Modak';
+@import 'https://fonts.googleapis.com/css?family=Ubuntu';
 
 body {
 	background-image: url("file:///C:/Users/Sara/Documents/GitHub/saragerou.github.io/unit_4/images/background.jpg");
@@ -19,7 +19,7 @@ body {
 
 header {
 	color: #FFFFFF;
-	font-family: 'Modak', cursive;
+	font-family: 'courier new';
 	font-weight: bold;
 	font-size: 42px;
 	text-align: center;
@@ -43,6 +43,7 @@ h3 {color: #FFFFFF;
 
 p {
 	color: #FFFFFF;
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 18px;
 	width:30em;
 	text-align: center;
