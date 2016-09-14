@@ -11,7 +11,7 @@ box-sizing: border-box;
 }
 
 body {
-	background-image: url("file:///C:/Users/Sara/Documents/GitHub/saragerou.github.io/unit_4/images/background.jpg");
+	background-image: url("file://C:/Users/Sara/Documents/GitHub/saragerou.github.io/unit_4/images/background.jpg");
 	background-size: cover;
 	font-size:16px; /*1m = 16px*/
 }
