@@ -8,7 +8,6 @@ padding: 0;
 box-sizing: border-box;
 }
 
-@import 'https://fonts.googleapis.com/css?family=Pacifico';
 
 body {
 	background-image: url("file:///C:/Users/Sara/Documents/GitHub/saragerou.github.io/unit_4/images/background.jpg");
@@ -17,21 +16,25 @@ body {
 	
 }
 
-header {color: #FFFFFF;
-	font-size: 36px;
+header {
+	color: #FFFFFF;
+	font-family: 'courier new';
+	font-weight: bold;
+	font-size: 42px;
 	text-align: center;
 }
 
 h2 {color: #FFFFFF;
-	font-family: 'brush script';
+	font-family: 'courier new';
+	font-weight: normal;
 	font-size: 36px;
 	padding-top:24px;
 	text-align: center;
 }
 
 h3 {color: #FFFFFF;
-	font-family: @import 'https://fonts.googleapis.com/css?family=Courgette';
-	font-size: 36px;
+	font-family: 'courir new';
+	font-size: 24px;
 	text-transform: uppercase;
 	padding-top:24px;
 	text-align: center;
@@ -39,7 +42,6 @@ h3 {color: #FFFFFF;
 
 p {
 	color: #FFFFFF;
-	font-family: Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	width:30em;
 	text-align: center;
