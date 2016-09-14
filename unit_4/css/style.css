@@ -17,6 +17,11 @@ body {
 	
 }
 
+header {color: #FFFFFF;
+	font-size: 36px;
+	text-align: center;
+}
+
 h2 {color: #FFFFFF;
 	font-family: 'brush script';
 	font-size: 36px;
@@ -60,7 +65,7 @@ a {
 }
 
 nav {
-	margin: 0;
+	margin: 2em;
 	padding: 0;
 	text-align: center;
 	word-spacing: 3em;
@@ -80,7 +85,7 @@ nav a:hover {
 }
 
 .logo {
-	text-align: center;
+	text-align: left;
 	margin: auto;
 	padding: 24px;
 }
