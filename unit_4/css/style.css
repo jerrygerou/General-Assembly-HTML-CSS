@@ -8,6 +8,7 @@ padding: 0;
 box-sizing: border-box;
 }
 
+@import 'https://fonts.googleapis.com/css?family=Modak';
 
 body {
 	background-image: url("file:///C:/Users/Sara/Documents/GitHub/saragerou.github.io/unit_4/images/background.jpg");
@@ -18,7 +19,7 @@ body {
 
 header {
 	color: #FFFFFF;
-	font-family: 'courier new';
+	font-family: 'Modak', cursive;
 	font-weight: bold;
 	font-size: 42px;
 	text-align: center;
