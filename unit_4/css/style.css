@@ -19,22 +19,22 @@ body {
 
 header {
 	color: #FFFFFF;
-	font-family: 'courier new';
+	font-family: 'courier';
 	font-weight: bold;
 	font-size: 42px;
 	text-align: center;
 }
 
 h2 {color: #FFFFFF;
-	font-family: 'courier new';
-	font-weight: normal;
+	font-family: 'courier';
+	font-weight: bold;
 	font-size: 36px;
 	padding-top:24px;
 	text-align: center;
 }
 
 h3 {color: #FFFFFF;
-	font-family: 'courir new';
+	font-family: 'courier';
 	font-size: 24px;
 	text-transform: uppercase;
 	padding-top:24px;
@@ -53,7 +53,7 @@ p {
 
 footer {
 	color: #FFFFFF;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 16px;
 	text-align: center;
 }
@@ -74,7 +74,7 @@ nav {
 	text-align: center;
 	word-spacing: 3em;
 	margin-top: 40px;
-	font-family: Cambria, serif;
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 24px;
 	line-height: 1.2em;
 	color: #FFFFFF;
@@ -82,7 +82,7 @@ nav {
 
 nav a:hover {
 	text-decoration: none;
-	font-family: Cambria, serif;
+	font-family: 'Ubuntu', sans-serif;;
 	font-size: 24px;
 	line-height: 1.2em;
 	color: #EFDC05;
