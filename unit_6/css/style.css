@@ -1,4 +1,10 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway:400,700|Special+Elite';
+@media screen and (max-width: 640px)
+	{nav a {
+		width: 100%;
+		text-align: center;
+	}}
+
 
 *,
 *:before,
@@ -16,7 +22,7 @@ body {
 }
 
 main {
-	float: left;
+	float: right;
 }
 
 h1, h2, h3 {
@@ -87,7 +93,7 @@ aside {
 hr {
 	color: #000000;
 	margin-bottom: 20px;
-	clear: right;
+	clear: left;
 }
 
 a { 
@@ -105,7 +111,7 @@ a:hover {
 nav a {
 	font-size: 24px;
 	display: block;
-	width: 270px;
+	width: 25%;
 	float: left;
 	}
 
@@ -124,6 +130,7 @@ ul {
 	font-family: 'Raleway', sans-serif;
 	font-size: 24px;
 	color: #000000;
+	list-style-type: square;
 }
 
 
@@ -162,23 +169,30 @@ ul {
 	height: 0;
 }
 
-.column {
-
-}
-
-#column1 {
-	width: 750px;
-	height: 600px;
+.column1 {
+	width: 65%;
 	padding: 20px;
 	margin: 0px;
 	float:left;
-	background-color: rgba(160, 160, 160, 0.4);
 }
 
-#column2 {
-	width: 270px;
-	height: 600px;
+.column2 {
+	width: 30%;
 	padding: 20px;
 	margin-right: 30px;
+	float:right;
+}
+
+.column3 {
+	width: 30%;
+	padding: 20px;
+	margin-left: 30px;
+	float:left;
+}
+
+.column4 {
+	width: 65%;
+	padding: 20px;
+	margin: 0px;
 	float:right;
 }
