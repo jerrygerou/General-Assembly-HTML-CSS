@@ -12,7 +12,7 @@ box-sizing: border-box;
 }
 
 body {
-	font-size:1em; 
+	font-size:16px; 
 }
 
 article, main {
@@ -83,7 +83,7 @@ footer {
 
 aside {
 	float:right;
-	padding-right: 1em;
+	padding-right: .25em;
 }
 
 hr {
@@ -130,12 +130,12 @@ ul {
 
 
 #wrapper {
-	max-width: 1080px;
+	max-width: 90%;
 	margin: auto;
 }
 
 .cardlist {
-	width: 30%;
+	width: 27%;
 	float:right;
 	padding-right: 1em;
 }
@@ -154,6 +154,8 @@ ul {
 #logo {
 	width: 200px;
 	padding: .25em;
+	float: none;
+	margin: auto;
 }
 
 #intro {
@@ -177,22 +179,25 @@ ul {
 	}}
 
 @media screen and (max-width: 640px) {
-	#logo {
-		max-width: 150px;
-		}
 	#intro {
-			padding: 0;
-			margin: 0;
+		display: none;
 		}
 	main, article {
-	float: none;
-	text-align: center;
-	width: 90%;
-	}
-	.cardlist {
 		float: none;
+		text-align: center;
 		width: 90%;
 	}
-	aside {
+	.cardlist {
+		width: 20%;
+		float: none;
+		width: 90%
+		padding: none;
+	}}
+
+@media screen and (max-width: 768px)
+	{aside {
 		display: none;
+	}
+	#logo {
+		max-width: 150px;
 	}}
