@@ -135,14 +135,14 @@ ul {
 }
 
 .cardlist {
-	width: 27%;
+	width: 100%;
 	float:right;
 	padding-right: 1em;
 }
 
-.cardimg {
-  width: 30%;
-  min-width: 300px;
+.cardimg img {
+  width: 100%;
+  max-width: 300px;
   margin: 0 auto;
   padding: 1em;
   display: inline-block;
@@ -185,12 +185,11 @@ ul {
 	main, article {
 		float: none;
 		text-align: center;
-		width: 90%;
+		width: 100%;
 	}
 	.cardlist {
-		width: 20%;
 		float: none;
-		width: 90%
+		width: 100%
 		padding: none;
 	}}
 
