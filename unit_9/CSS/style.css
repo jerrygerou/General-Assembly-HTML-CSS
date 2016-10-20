@@ -1,0 +1,179 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway:400,700|Special+Elite';
+
+*,
+*:before,
+*:after {
+margin: 0;
+padding: 0;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+body {
+	font-size:16px; 
+}
+
+h1, h2, h3 {
+	color: #383A3F;
+	font-family: 'Special Elite', cursive;
+	text-align: center;
+}
+
+h1 {
+	font-size: 2.5em;
+	text-align: center;
+}
+
+h2 {
+	font-size: 2em;
+	text-align: center;
+	clear: both;
+	padding-top: 1.75em;
+}
+
+h3 {
+	font-size: 2em;
+	text-align: center;
+	clear: both;
+}
+
+p {
+	color: #383A3F;
+	font-family: 'Raleway', sans-serif;
+	clear: both;
+	padding: .5em;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+img {
+	max-width: 100%;
+}
+
+a { 
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color: #75D701;
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+	color: #FFFFFF;
+	background-color: #383A3F;
+	margin-bottom: 1em;
+	clear: both;
+	padding: .25em;
+}
+
+nav a {
+	color: white;
+	font-size: 1.5em;
+	display: block;
+	width: 25%;
+	float: left;
+	padding: .25em;
+}
+
+nav a:hover {
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5em;
+	color: #383A3F;
+	cursor: pointer;
+	background-color: #75D701;
+	padding: .25em;
+}
+
+ul {
+	font-family: 'Raleway', sans-serif;
+	list-style-type: square;
+	margin-left: 5em;
+	text-align: justify;
+	float: left;
+	font-size: 1.25em;
+}
+
+footer {
+	font-size: 1em;
+	text-align: center;
+	padding: 1em 0;
+	background-color: #383A3F;
+	color: #FFFFFF;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	margin-top: 1em;
+	clear: both;
+}
+
+#wrapper {
+	max-width: 90%;
+	margin: auto;
+}
+
+#logo {
+	padding-top: 3em;
+	clear: both;
+	text-align: center;
+}
+
+.offerings {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+.cardimg {
+	width: 100%;
+	display: block;
+	float: left;
+}
+
+.cardimg img {
+	max-width: 100%;
+}
+
+.clearfix:after {
+	display: block;
+	content: " ";
+	clear: both;
+	font-size: 0
+	visibility: hidden;
+	height: 0;
+}
+
+
+@media screen and (max-width: 640px) {
+	nav a {
+		width: auto;
+		float: none;
+	}
+	#logo {
+		padding-top: 10em;
+	}
+	.offerings {
+		min-width: 150px;
+		text-align: center;
+		margin-left: 3em;
+	}
+	.cardimg img {
+		max-width: auto;
+	}
+	ul {
+		margin-left:2em;
+	}
+
+	img {
+		max-width: auto;
+	}
+	h2 {
+		padding-top: 5em;
+	}
+}
+
+@media screen and (max-width: 1800px) {
+	.cardimg img {
+		width: auto;
+	}
