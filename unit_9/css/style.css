@@ -1,5 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway:400,700|Special+Elite';
 
+
 *,
 *:before,
 *:after {
@@ -144,6 +145,14 @@ footer {
 	visibility: hidden;
 	height: 0;
 }
+
+@media screen and (max-width: 780px) {
+	.cardimg {
+		clear: both;
+	}
+		ul {
+		display: none;
+	}
 
 
 @media screen and (max-width: 640px) {
